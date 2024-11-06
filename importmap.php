@@ -1,6 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 /**
+ * Copyright (C) Name
+ *
  * Returns the importmap for this application.
  *
  * - "path" is a path inside the asset mapper system. Use the
@@ -11,6 +15,7 @@
  *
  * The "importmap:require" command can be used to add new entries to this file.
  */
+
 return [
     'app' => [
         'path' => './assets/app.js',

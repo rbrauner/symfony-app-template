@@ -470,6 +470,11 @@ $RECYCLE.BIN/
 phpstan.neon
 ###< phpstan/phpstan ###
 
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
+
 ###> username/php-app ###
 /.env
 /compose.override.yaml

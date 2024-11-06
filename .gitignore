@@ -633,7 +633,7 @@ phpstan.neon
 .phpunit.result.cache
 ###< phpunit/phpunit ###
 
-###> username/php-app ###
+###> username/symfony-app ###
 /.env
 /compose.override.yaml
-###< username/php-app ###
+###< username/symfony-app ###

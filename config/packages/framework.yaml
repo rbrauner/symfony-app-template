@@ -9,6 +9,9 @@ framework:
     #esi: true
     #fragments: true
 
+    # for local reverse proxy
+    trusted_proxies: 'private_ranges'
+
 when@test:
     framework:
         test: true

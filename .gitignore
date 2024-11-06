@@ -465,11 +465,6 @@ $RECYCLE.BIN/
 /assets/vendor/
 ###< symfony/asset-mapper ###
 
-###> username/php-app ###
-/.env
-/compose.override.yaml
-###< username/php-app ###
-
 ###> friendsofphp/php-cs-fixer ###
 /.php-cs-fixer.php
 /.php-cs-fixer.cache
@@ -478,3 +473,8 @@ $RECYCLE.BIN/
 ###> phpstan/phpstan ###
 phpstan.neon
 ###< phpstan/phpstan ###
+
+###> username/php-app ###
+/.env
+/compose.override.yaml
+###< username/php-app ###
